@@ -52,7 +52,7 @@ function changeImg(){
 	prePhotoName = currentPhotoName;
 
 	//画像を差し替え
-	document.getElementsByClassName('quizImg')[0].src = 'images/' + currentPhotoName + '.jpg';
+	document.getElementsByClassName('quizImg')[0].src = 'http://naoyashiga.github.io/Michibata_Sisters_Quiz/app/images/' + currentPhotoName + '.jpg';
 
 	return name;
 }
